@@ -1,0 +1,128 @@
+# ==============================================================================
+# Git Ignore - Chaos Engineering for Agentic AI (Source Code Only)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Book Artifacts, Manuscripts & Build Outputs
+# ------------------------------------------------------------------------------
+ebook/
+Claude outputs/
+"Claude outputs/"
+*.pdf
+*.epub
+*.mobi
+*.azw3
+*.kpf
+*.docx
+*.zip
+*.tar.gz
+
+# LaTeX build artifacts & minted caches
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.idx
+*.ilg
+*.ind
+*.aex
+*.pyg
+*.w18
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pass*.log
+*.build.log
+_minted*
+.preview/
+.pv*/
+_preview_/
+_to_delete/
+
+# ------------------------------------------------------------------------------
+# 2. Python & Bytecode Artifacts
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ------------------------------------------------------------------------------
+# 3. Virtual Environments
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------------------------
+# 4. Environment Variables & Secrets
+# ------------------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# ------------------------------------------------------------------------------
+# 5. Testing, Coverage & Profiling
+# ------------------------------------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# ------------------------------------------------------------------------------
+# 6. Database & Local Storage
+# ------------------------------------------------------------------------------
+chroma_db/
+*.sqlite
+*.sqlite3
+*.db
+logs/
+*.log
+
+# ------------------------------------------------------------------------------
+# 7. OS & IDE Specific Files
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace

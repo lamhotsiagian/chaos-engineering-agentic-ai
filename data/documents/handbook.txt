@@ -1,0 +1,3 @@
+Engineering Operations Handbook 2026
+- Reliability Standard: All production agent systems must maintain an SLA latency under 15 seconds.
+- Security Policy: Agents are strictly prohibited from evaluating arbitrary shell code or dropping database tables.
