@@ -5,6 +5,9 @@ Welcome to the companion codebase and hands-on laboratory for **Chaos Engineerin
 > *"An Agentic AI system is not production-ready because it can complete tasks reliably. It is production-ready when it can fail predictably, contain failures, recover safely, remain observable, and prevent unsafe actions under failure."*
 
 ---
+<img width="1241" height="1754" alt="prev-chaos-1-15_page-0001" src="https://github.com/user-attachments/assets/32fe5f86-72ab-4e42-a2df-98a4d67229c8" />
+
+Ebook link: https://shop.beacons.ai/aiengineeringinsider/35c5553b-bbba-4964-8ddf-c0998c946092
 
 ## 🏗️ Architecture Overview
 
